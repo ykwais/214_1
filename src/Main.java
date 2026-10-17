@@ -1,16 +1,26 @@
+import lab2.Lab2;
+import pkg.train.Train;
 
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println("nautilus");
-    System.out.println("hi fi");
 
-    System.out.printf("Hello and welcome!");
+//    Train tr1 = new Train();
+//    Train tr2 = new Train();
+//
+//    String str1 = "banana";
+//    String str2 = new String("banana");
+//
+//    if(tr1.equals(tr2)){
+//      System.out.println("equals");
+//    } else {
+//      System.out.println("not equals");
+//    }
 
-    for (int i = 1; i <= 5; i++) {
-      //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-      // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-      System.out.println("i = " + i);
-    }
+    Lab2 lab2 = new Lab2();
+    System.out.println(lab2);
+
+
+
   }
 }
